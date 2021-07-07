@@ -2,16 +2,20 @@ import numpy
 import matplotlib
 from matplotlib import pyplot as plt
 
+#Load Data
 
 def loaddata():
     X = numpy.loadtxt('data/X.txt')
     T = numpy.loadtxt('data/T.txt')
     return X,T
 
+#Load Parameters
 def loadparams():
     W = [numpy.loadtxt('params/l%d-W.txt'%l) for l in range(1,4)]
     B = [numpy.loadtxt('params/l%d-B.txt'%l) for l in range(1,4)]
     return W,B
+
+#Visualisation
 
 def heatmap(R,sx,sy):
 
