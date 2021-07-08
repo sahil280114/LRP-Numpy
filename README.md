@@ -1,2 +1,2 @@
 # LRP-Numpy
-##Layer-wise Relevance Propagation implemented in numpy
+## Layer-wise Relevance Propagation implemented in numpy
